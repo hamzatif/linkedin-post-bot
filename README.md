@@ -39,7 +39,7 @@ A `used_prompts.json` file ensures each topic is only used once before repeating
 
 ```bash
 git clone https://github.com/yourusername/linkedin-post-bot.git
-cd linkedin-post-bot```
+cd linkedin-post-bot
 
 ## 🚀 Getting Started
 
