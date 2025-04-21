@@ -12,11 +12,11 @@ from email.mime.text import MIMEText
 from datetime import datetime
 
 # ----------------------- CONFIGURATION -----------------------
-openai = OpenAI(api_key='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')  # <-- Replace with your API key
+openai = OpenAI(api_key=os.environ['OPEN_API_KEY'])
 
-EMAIL_ADDRESS = 'automation2519@gmail.com'
-EMAIL_PASSWORD = 'xxpnnzhgtcmjrwix'  # Create an app password if using Gmail with 2FA
-RECIPIENT_EMAIL = 'hamza.b.atif@gmail.com'
+EMAIL_ADDRESS = os.environ['EMAIL_ADDRESS']
+EMAIL_PASSWORD = os.environ['EMAIL_PASSWORD']
+RECIPIENT_EMAIL = os.environ['RECIPIENT_EMAIL']
 
 USED_PROMPTS_FILE = "used_prompts.json"
 
