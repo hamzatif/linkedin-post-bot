@@ -12,7 +12,7 @@ from email.mime.text import MIMEText
 from datetime import datetime
 
 # ----------------------- CONFIGURATION -----------------------
-openai = OpenAI(api_key=os.environ['OPEN_API_KEY'])
+openai = OpenAI(api_key=os.environ['OPEN_AI_API_KEY'])
 
 EMAIL_ADDRESS = os.environ['EMAIL_ADDRESS']
 EMAIL_PASSWORD = os.environ['EMAIL_PASSWORD']
