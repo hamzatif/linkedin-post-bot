@@ -30,4 +30,4 @@ jobs:
       run: |
         echo "Creating used_prompts.json if missing..."
         touch used_prompts.json
-        python daily_ai_post.py
+        python daily_post.py
