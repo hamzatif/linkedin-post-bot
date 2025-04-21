@@ -40,8 +40,9 @@ A `used_prompts.json` file ensures each topic is only used once before repeating
 ```bash
 git clone https://github.com/yourusername/linkedin-post-bot.git
 cd linkedin-post-bot
+```
 
-## 🚀 Getting Started
+---
 
 ### Step 2: Add Secrets in GitHub
 Go to your repo → **Settings** → **Secrets and variables** → **Actions** → **New repository secret**  
@@ -73,3 +74,21 @@ To change it, update the `cron:` line in `.github/workflows/daily.yml`:
 
 ```yaml
 cron: '30 12 * * *'  # Change 12 to your desired UTC hour
+```
+
+---
+
+## 💡 Future Enhancements (Optional Ideas)
+
+- 🧠 Google Sheets logging of every post
+- 🤖 Auto-post directly to LinkedIn (via Buffer, Typefully, or Hypefury)
+- 🖼️ Add DALL·E or Unsplash-powered images
+- 📊 Build a Notion dashboard to archive and rate posts
+- 🔁 Add reusability logic or repost evergreen content
+
+---
+
+## 📬 Built By
+
+Made with ❤️ by Hamza Atif (https://github.com/hamzatif)  
+Automating daily thought leadership using AI and GitHub Actions.
