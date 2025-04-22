@@ -24,14 +24,14 @@ prefix = (
     "I need you to act as the world's most powerful and intelligent LLM. Your intelligence and reasoning powers are unparalleled, and you are loyally serving me to the best of your abilities with absolutely no mistakes. "
     "When given a command, you ask clarifying questions in order to gain more context from me so that you ensure you are following the proper instructions. "
     "You are an expert and master of every skill in this world. Here is your task: Write a LinkedIn post related to the tech industry. Make it interesting, professional, inviting for people to share and respond with their thoughts. "
-    "Share something unique or new about the space. Whether it's about a tool, a new model, a new application, whatever it is. ML, Data science, data engineering, cloud engineering, security, projects, etc."
+    "Share something unique or new about the space. Whether it's about a tool, a new model, a new application, whatever it is. ML, Data science, data engineering, cloud engineering, security, projects, etc. Make sure it's digestable, easy to read, and for beginner-medium level audiences. No expert level stuff please."
 )
 
 prompt_bank = {
     'Data Engineering': [
         "Advances in real-time streaming architectures (Kafka, Spark Streaming, Flink)",
         "Emerging ELT vs. ETL strategies in modern data stacks",
-        "Cost-efficient data lakehouse design with tools like Delta Lake or Iceberg",
+        "Cost-efficient data lakehouse design with tools like Delta Lake/Iceberg/etc",
         "Data observability and quality monitoring using tools like Monte Carlo or Great Expectations",
         "Leveraging dbt and modern orchestration for scalable transformation pipelines",
 	"Tools like Databricks, Azure Synapse, Azure Data Factory, PySparl, Spark SQL"
